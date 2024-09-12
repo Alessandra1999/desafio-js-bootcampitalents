@@ -20,7 +20,7 @@ Este projeto utiliza os seguintes conceitos de JavaScript:
 - **Operador Ternário**: Para formatação condicional de dígitos.
 - **Desestruturação**: Para acessar as propriedades do objeto `timerState`.
 
-## Você pode acessá-lo através do link: https://cronometro-desafiojs.netlify.app/
+### Você pode acessá-lo através do link: https://cronometro-desafiojs.netlify.app/
 
 ou clonar o repositório e rodar o projeto localmente:
 

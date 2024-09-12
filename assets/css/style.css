@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/assets/imgs/pexels-padrinan-255379.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+.timer-container {
+    text-align: center;
+    background: #ffffffbb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3em;
+    color: #0b7c78;
+}
+
+.timer {
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: #0b7c78;
+}
+
+.timer p {
+    font-size: 0.5em;
+}
+
+input {
+    color: #0b7c78;
+}
+
+.timer input {
+    width: 115px;
+    text-align: center;
+    background: none;
+    border: none;
+    -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.timer ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.timer input:focus {
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9; 
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+#start {
+    background-color: #4caf4f;
+    color: white;
+}
+
+#pause {
+    background-color: #FF9800;
+    color: white;
+}
+
+#reset {
+    background-color: #F44336;
+    color: white;
+}

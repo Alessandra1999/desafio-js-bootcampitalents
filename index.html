@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="card text-center p-4 shadow timer-container">
+        <h1 class="mb-4">Cronômetro</h1>
+        <div class="container timer text-center">
+            <p id="display">horas : minutos : segundos</p>
+            <input type="number" id="hours" min="0" value="00">:
+            <input type="number" id="minutes" min="0" value="00">:
+            <input type="number" id="seconds" min="0" value="00">
+        </div>
+        <div class="d-flex justify-content-around">
+            <button id="start" class="btn btn-success">Iniciar</button>
+            <button id="pause" class="btn btn-warning">Pausar</button>
+            <button id="reset" class="btn btn-danger">Reiniciar</button>
+        </div>
+    </div>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
